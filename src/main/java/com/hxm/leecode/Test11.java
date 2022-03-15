@@ -18,6 +18,9 @@ public class Test11 {
         String s = "asdf";
         char[] array = s.toCharArray();
 
+        int[] nums = new int[4];
+        int a = nums.length;
+
         Set<String> set = new HashSet<>();
         set.add(s);
 
