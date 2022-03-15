@@ -44,7 +44,7 @@ public class Test13 {
         for (int i = 0; i < nums.length - 1 ; i++){
             if(nums[i] < nums[i +1] ){
                 ++tem;
-                maxMum = tem > maxMum ? tem : maxMum;
+                maxMum = Math.max(tem, maxMum);
             } else {
                 tem = 1;
             }
