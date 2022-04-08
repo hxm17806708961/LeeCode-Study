@@ -3,6 +3,7 @@ package com.hxm.leecode.selftest;
 import java.util.Scanner;
 
 /**
+ * 逆序输出
  * @author hxmao
  * @date 2022/3/16 16:07
  */
